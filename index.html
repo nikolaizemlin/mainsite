@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,58 +13,20 @@
   <link href="assets/css/reset.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
   <title>Nick's Place</title>
-
 </head>
-
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home
-            <span class="sr-only">(current)</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">
-            Nicks Homework
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="https://nikolaizemlin.github.io/Bootstrap-Portfolio/">Portfolio</a>
-            <a class="dropdown-item" href="https://nikolaizemlin.github.io/unit-4-game/">Crystal Game</a>
-            <a class="dropdown-item" href="https://nikolaizemlin.github.io/Psychic-Game/">Psychic</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="https://nikolaizemlin.github.io/TriviaGame/">Warcraft Trivia</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="https://nikolaizemlin.github.io/mainsite/">
+      <img src="https://78.media.tumblr.com/ae033db874141eb4c61215f4a49342ac/tumblr_ojz0j33WfV1undzuio1_500.gif" width="30" height="30" class="d-inline-block align-top" alt="Running Knight">
+      Nick Hosley
+    </a>
   </nav>
-  <div class="container-fluid bg-3 text-center">
+      
+  <div class="container-main">
     <div class="row">
-      <div class="col-sm-3">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+      <div class="col">
+        <div class="card" style="width: 12rem;">
+          <img class="card-img-top" src="assets/images/nick.jpg" width="100" height="180" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Portfolio</h5>
             <p class="card-text">Here you will find out a little bit about me.</p>
@@ -71,29 +34,61 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-3">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+      <div class="col">
+        <div class="card" style="width: 12rem;">
+          <img class="card-img-top" src="assets/images/psychic.webp" width="100" height="180" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <p class="card-text">This is my first attempt at a guessing game.</p>
+            <a href="https://nikolaizemlin.github.io/Psychic-Game/" class="btn btn-primary">Psychic</a>
           </div>
         </div>
     </div>
-    <div class="col-sm-3">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+    <div class="col">
+        <div class="card" style="width: 12rem;">
+          <img class="card-img-top" src="http://teepasnow.com/uploads/main/Gems_Logo.jpg" width="100" height="180" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <p class="card-text">Short game about numbers and addition.</p>
+            <a href="https://nikolaizemlin.github.io/unit-4-game/" class="btn btn-primary">Gem Game</a>
           </div>
         </div>
       </div>
     </div>
+    <br>
+    <div class="row">
+    <div class="col">
+      <div class="card" style="width: 12rem;">
+        <img class="card-img-top" src="assets/images/warcraft.jpg" width="100" height="180" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Warcraft Trivia</h5>
+          <p class="card-text">Here is a small trivia game about World of Warcraft lore.</p>
+          <a href="https://nikolaizemlin.github.io/TriviaGame/" class="btn btn-primary">Trivia Travel</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 12rem;">
+        <img class="card-img-top" src="http://www.thisiscolossal.com/wp-content/uploads/2017/08/Lovely_Impressions.gif" width="100" height="180" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Nothing yet...</h5>
+          <p class="card-text">This will be giftaskic and provide you with more pictures.</p>
+          <a href="https://nikolaizemlin.github.io/mainsite/" class="btn btn-primary">Gifs await</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 12rem;">
+        <img class="card-img-top" src="assets/images/underconstruction-0069.gif" width="100" height="180" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Nothing yet...</h5>
+          <p class="card-text">Nothing to see here yet...working on it check back soon.</p>
+          <a href="https://nikolaizemlin.github.io/mainsite/" class="btn btn-primary">Stop</a>
+        </div>
+      </div>
+    </div>
   </div>
-  
+</div>
 
 
     <div class="footer">
