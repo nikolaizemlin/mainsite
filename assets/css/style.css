@@ -20,5 +20,7 @@ body, html {
 padding-bottom: 60px;
 padding-top: 10px;
 }
-
+.navbar {
+  background: linear-gradient(rgb(160, 17, 17), rgb(7, 94, 7));
+}
 
